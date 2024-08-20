@@ -1,0 +1,59 @@
+{
+  "Header": {
+    "title": "Bienvenue",
+    "paragraph": "Marokko Biz Système de facturation"
+  },
+  "About": {
+   
+      "paragraph": "Marokko Biz Invoice\nLe système de facturation Marokko Biz a été développé pour les petites et moyennes entreprises ainsi que pour les magasins. Il s'agit d'un système simple qui permet de créer une facture en quelques clics, avec un mini-système de gestion des stocks intégré.\n\nLe système sera continuellement mis à jour et amélioré.\nLe programme n'est pas open source.\n\nÀ l'origine, le système est gratuit.\n\nLe système a été développé par Marokko Biz IT Development, qui fait partie de Marokko Biz SARL depuis le 31.01.12.\n\nVous pouvez suivre les mises à jour du système sur notre page Facebook."
+    ,
+     
+    "Why": [
+     ],
+    "Why2": [
+       
+    ]
+  },
+ 
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    }
+  ],
+   
+  "Contact": {
+    "address": "Marokko Biz Invoice System Enghavevej 28B, 3 th. Copenhagen Denmark",
+     "email": "info@marokkobizinvoice.com",
+    "facebook": "https://www.facebook.com/MarokkobizIT?_rdc=1&_rdr",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  }
+  
+}
