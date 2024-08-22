@@ -2,8 +2,13 @@ import React from "react";
 
 export const Services = (props) => {
   return (
-    <div id="services" className="text-center">
-      <div className="container">
+    <div id="services" style={{ padding: 0, height: '500px', textAlign: 'center' }}>
+     <div className="intro" style={{ padding: 0, height: '500px', textAlign: 'center' }}>
+        <div className="overlay" style={{ padding: 0, height: '500px', textAlign: 'center' }}>
+          <div className="container" style={{ padding: 0, height: '500px', margin: 0, textAlign: 'center' }}>
+       <br></br>
+       <br></br>
+       <br></br>
         <div className="section-title">
           <h2>Pricing</h2>
         </div>
@@ -24,6 +29,8 @@ export const Services = (props) => {
               ))
             : "loading"} */}
         </div>
+      </div>
+      </div>
       </div>
     </div>
   );

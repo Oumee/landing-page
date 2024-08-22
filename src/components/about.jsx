@@ -2,20 +2,17 @@ import React from "react";
 
 export const About = (props) => {
   return (
-    <div id="about">
-      <div className="container">
-        <div className="row">
-          <div className="col-xs-12 col-md-6">
-            {" "}
-            <img src="img/loh.jpg" className="img-responsive" alt="" />{" "}
-          </div>
-          <div className="col-xs-12 col-md-6">
-            <div className="about-text">
-              <h2>About Us</h2>
-              <p>{props.data ? props.data.paragraph : "loading..."}</p>
+    <div id="about" style={{ padding: 0, textAlign: 'center', height: '500px' }}  >
+      <div className="intro" style={{ padding: 0, height: '500px', textAlign: 'center' }}>
+        <div className="overlay" style={{ padding: 0, height: '500px', textAlign: 'center' }}>
+          <div className="container" style={{ padding: 0, height: '500px', margin: 0, textAlign: 'center' }}>
+
             
-            </div>
-          </div>
+              <div className="section-title">
+                <h2>About Us</h2>
+                <p>{props.data ? props.data.paragraph : "loading..."}</p>
+              </div>
+           </div>
         </div>
       </div>
     </div>

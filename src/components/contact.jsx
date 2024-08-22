@@ -7,8 +7,11 @@ export const Contact = (props) => {
   
   return (
     <div>
-      <div id="contact" className="text-center align-item-center">
-        <div className="container">
+      <div id="contact" style={{ padding: 0, height: '500px', textAlign: 'center' }} >
+      <div className="intro" style={{ padding: 0, height: '500px', textAlign: 'center' }}>
+        <div className="overlay" style={{ padding: 0, height: '500px', textAlign: 'center' }}>
+          <div className="container" style={{ padding: 0, height: '500px', margin: 0, textAlign: 'center' }}>
+
         <div className="section-title">
           <h2>Contact</h2>    
         </div>
@@ -34,7 +37,7 @@ export const Contact = (props) => {
             </div>
           </div>
           <div >
-            <div className="row">
+            <div className=" ">
               <div className="social">
                 <ul>
                   <li>
@@ -62,6 +65,8 @@ export const Contact = (props) => {
         <div className="container text-center">
            
         </div>
+      </div>
+      </div>
       </div>
     </div>
   );
