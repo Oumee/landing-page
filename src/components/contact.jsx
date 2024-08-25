@@ -6,9 +6,9 @@ import React from "react";
 export const Contact = (props) => {
 
   return (
-    <div id="contact" style={{ padding: 0, height: '500px', textAlign: 'center' }}>
+    <div id="contact" style={{ padding: 0, height: '400px', textAlign: 'center' }}>
       <div className="intro" style={{ padding: 0, height: '500px', textAlign: 'center' }}>
-        <div className="overlay" style={{ padding: 0, height: '500px', textAlign: 'center' }}>
+        <div className="overlay" style={{ padding: 0, height: '700px', textAlign: 'center' }}>
           <div className="container" style={{ padding: 0, height: '500px', textAlign: 'center' }}>
             <div className="row text-center">
               <div className="col-md-8 col-md-offset-2 intro-text">
@@ -30,13 +30,14 @@ export const Contact = (props) => {
                     </span>{" "}
                     {props.data ? props.data.email : "loading"}
                   </p>
-                </div>
-
-              </div>
-              <div >
-                <div className="footer">
-                  <div className="social">
-                    <ul>
+                  <a
+                  href="https://kristofferseninvest.dk/register"
+                  className="btn btn-custom btn-lg page-scroll"
+                >
+                  S'inscrire
+                </a>
+                <div className="footer"> 
+                <ul className="social">
                       <li>
                         <a href={props.data ? props.data.facebook : "/"}>
                           <i className="fa fa-facebook"></i>
@@ -53,11 +54,13 @@ export const Contact = (props) => {
                         </a>
                       </li>
                     </ul>
-                  </div>
+                    </div>
                 </div>
-              </div>
 
-         
+              </div>
+             
+
+             
           </div>
           
         </div>
@@ -65,23 +68,6 @@ export const Contact = (props) => {
     </div>
   </div >
 
-      // <div id="contact" style={{ padding: 0, height: '500px', textAlign: 'center' }} >
-      // <div className="intro" style={{ padding: 0, height: '500px', textAlign: 'center' }}>
-      //   <div className="overlay" style={{ padding: 0, height: '500px', textAlign: 'center' }}>
-      //     <div className="container" style={{ padding: 0, height: '500px', margin: 0, textAlign: 'center' }}>
-
-      //   <div className="section-title">
-      //     <h2>Contact</h2>    
-      //   </div>
-
-      //     <div >
-
-
-
-
-      //   </div>
-      // </div>
-      // </div>
-      // </div>
+    
    );
 };

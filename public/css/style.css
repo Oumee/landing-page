@@ -597,6 +597,15 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
+.footer .social {
+  display: flex;
+  justify-content: center; /* Centrer les éléments de la liste horizontalement */
+  list-style-type: none; /* Supprimer les puces de la liste */
+  padding: 0;
+  margin: 0;
+}
+
+
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;

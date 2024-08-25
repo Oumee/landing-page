@@ -13,7 +13,12 @@ export const About = (props) => {
                 
               </h1>
               <p>{props.data ? props.data.paragraph : "Loading"}</p>
-               
+              <a
+                  href="https://kristofferseninvest.dk/register"
+                  className="btn btn-custom btn-lg page-scroll"
+                >
+                  S'inscrire
+                </a>{" "}
             </div>
           </div>
         </div>

@@ -12,7 +12,12 @@ export const Services = (props) => {
             <br></br>
              <p> Système de base			0,00  dh
              </p>
-                
+             <a
+                  href="https://kristofferseninvest.dk/register"
+                  className="btn btn-custom btn-lg page-scroll"
+                >
+                  S'inscrire
+                </a>{" "}
             </div>
           </div>
         </div>
